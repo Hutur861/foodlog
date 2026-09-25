@@ -1,0 +1,31 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Forge dev environment
+run/
+runs/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+bin/
+out/
+
+# Locally supplied dependencies (see README)
+libs/*.jar
+
+# Stray leftover at the project root (the real one lives in src/main/resources)
+/META-INF/
+
+# Scratch files
+*.log
+fd.txt
+pl.txt

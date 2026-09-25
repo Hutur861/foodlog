@@ -96,6 +96,12 @@ The jar is written to `build/libs/`.
 > for 1.20.1 Forge and place it at that path. JEI is optional at runtime; without it the mod works
 > normally and only the search alias is missing.
 
+## Credits
+
+Written with **AI assistance — DeepSeek-V4.1-Flash**. The design decisions, the code, and the
+icon were all produced in collaboration with that model; the human author directed the work and
+tested it in game.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
@@ -124,3 +130,7 @@ MIT — see [LICENSE](LICENSE).
 - 「取未吃各1」按钮：容器界面左下角可拖动，每种未吃过的食物取 1 个进背包
 - JEI 搜索 `%未吃`：只筛出还没吃过的食物
 - 自动进食：`/foodlog eat` 常驻开关，`/foodlog eat now` 立即吃一遍；按饱食度从低到高吃，用数字键交换进食、吃完换回，背包保持原样；只有真的吃下去了才会被记录
+
+**关于作者**
+
+本模组由 **AI —— DeepSeek-V4.1-Flash** 协助编写：设计与代码、图标均由该模型产出，人类作者负责提出需求并在游戏内实际测试。

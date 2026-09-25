@@ -2,6 +2,8 @@
 
 <img src="src/main/resources/logo.png" alt="Food Log icon" width="128" height="128">
 
+**English** | [中文](README_CN.md)
+
 **A pure client-side Minecraft mod for Forge 1.20.1, built with Java 21.**
 
 Food Log is a food encyclopedia for your playthrough. It scans every food the game knows about,
@@ -105,32 +107,3 @@ tested it in game.
 ## License
 
 MIT — see [LICENSE](LICENSE).
-
----
-
-## 中文说明
-
-**这是一个纯客户端模组，适用于 Forge 1.20.1，使用 Java 21 构建。**
-
-食物图鉴会把游戏里所有食物列出来，判断哪些你已经吃过、哪些还没吃过，让整合包里成百上千种
-料理不再是一笔糊涂账。
-
-> **纯客户端模组。** 只需要装在客户端，**服务端无需安装**，也不需要知道它的存在。把 jar 丢进
-> 客户端的 `mods` 目录即可，单机、原版服务器、Forge 服务器、各种整合服都能直接用。它只读取
-> 服务端本来就会发给每个客户端的信息，也只做普通玩家会做的操作（开界面、点格子、使用手里的
-> 物品）。
-
-**主要功能**
-
-- 食物图鉴界面：翻页网格 + 分维度标签栏，快捷键或 `/foodlog page` 打开
-- 五个分类维度：类型、生熟、来源、饱食、条件
-- 已吃过显示绿色，未吃过显示灰色
-- 导入原版统计：把原版记录过的进食补进图鉴，条目显示为青色（统计只能证明「用过」）
-- 容器高亮：`/foodlog lighting true`，给容器里未吃过的食物描金边、其余物品压暗，兼容 mod 容器与精致存储
-- 「取未吃各1」按钮：容器界面左下角可拖动，每种未吃过的食物取 1 个进背包
-- JEI 搜索 `%未吃`：只筛出还没吃过的食物
-- 自动进食：`/foodlog eat` 常驻开关，`/foodlog eat now` 立即吃一遍；按饱食度从低到高吃，用数字键交换进食、吃完换回，背包保持原样；只有真的吃下去了才会被记录
-
-**关于作者**
-
-本模组由 **AI —— DeepSeek-V4.1-Flash** 协助编写：设计与代码、图标均由该模型产出，人类作者负责提出需求并在游戏内实际测试。
